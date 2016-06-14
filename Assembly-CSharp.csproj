@@ -46,8 +46,12 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\cameraScript_ex00.cs" />
+     <Compile Include="Assets\Scripts\cameraScript_ex01.cs" />
+     <Compile Include="Assets\Scripts\goalScript_ex01.cs" />
      <Compile Include="Assets\Scripts\handlePlayer_ex00.cs" />
+     <Compile Include="Assets\Scripts\handlePlayer_ex01.cs" />
      <Compile Include="Assets\Scripts\playerScript_ex00.cs" />
+     <Compile Include="Assets\Scripts\playerScript_ex01.cs" />
  <Reference Include="UnityEngine.Networking">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
