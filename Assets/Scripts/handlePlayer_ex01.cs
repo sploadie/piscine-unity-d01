@@ -34,7 +34,7 @@ public class handlePlayer_ex01 : MonoBehaviour {
 			if (players [i].win == false)
 				return;
 		}
-		Debug.Log("You win!");
-		Application.LoadLevel(Application.loadedLevel);
+		Debug.Log ("You win!");
+		Application.LoadLevel((Application.loadedLevel + 1) % 2);
 	}
 }
